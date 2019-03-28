@@ -1,8 +1,8 @@
 # IDS6145(SimTech 2019) - Research Plan (Template)
 (remember all text between brackets to be removed in proposal and final, like template above)
 
-> * Group Name: (Blake , Justin , Ugur)
-> * Group participants names: (alphabetically sorted by last name)
+> * Group Name: we need a group name here :) 
+> * Group participants names: Justin Loveless, Blake Nguyen, Ugur Uysal (alphabetically sorted by last name)
 > * Project Title: (can be changed later)
 (Abstract here - basically your pitch with some modification - but short overview)
 (TEASER IMAGE HERE - should wow me to read your work)
