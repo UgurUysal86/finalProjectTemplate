@@ -66,6 +66,9 @@ Ugur’s Motivation: Armed forces use technology to gain superiority on the batt
 ## Research Methods
 (Cellular Automata, Agent-Based Model, Discrete Event Continuous Modeling...)(Python or Anylogic) (If you are not sure here: 1. Consult your colleagues, 2. ask the teachers, 3. remember that you can change it afterwards) (Steps in the process)
 
+##### Click on the image to watch the video **Fully-autonomous UCAV operation in a "Multi-Drone Control" scenario** on YouTube.
+[![fully_autonomous](https://github.com/UgurUysal86/finalProjectTemplate/blob/master/images/fully-autonomous.jpg)](https://www.youtube.com/watch?v=pyYe_pu8vdk&feature=youtu.be)
+
 ## (Other)
 (change the title and amount of headers as needed) (mention datasets you are going to use) (mention base code or examples you)
 
