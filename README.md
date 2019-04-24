@@ -48,8 +48,15 @@ Ugur’s Motivation: Armed forces use technology to gain superiority on the batt
 ## The Model
 
 (Provide structural and behavior diagrams of the system you wish to study.) (Why is your model a good abtraction of the problem you want to study?) (Are you capturing all the relevant aspects of the problem?) (Use the model to tell us what is going on.)
+The model consists of a Drone, Tank, and Human, which all inherit certain shared traits from the class Entity. 
+![Class Diagram](images/ClassDiagram.png)
+
+The Drone gets its target/mission data from the human, who holds the information such as location of target, number of targets in area, and other threats in the area. The human sends the data to the Drone, which then locates the target, analyzes the activity, and either attacks or reports its observation.
+![Activity Diagram](images/ActivityDiagram.png)
 
 (explicitly list your requirements of what the model will have and simulate for the proposal)
+The drones will attack enemy tanks as directed
+The drones will provide updated information on a target once observed
 
 ## Fundamental Questions
 (At the end of the project you want to find the answer to these questions) (Formulate a few, clear questions. Articulate them in sub-questions, from the more general to the more specific.)
