@@ -1,9 +1,9 @@
 # IDS6145(SimTech 2019) - Research Plan 
 (remember all text between brackets to be removed in proposal and final, like template above)
 
-> * Group Name: (R)omeo (O)scar (B)eta (O)scar (T)ango (S)ierra (ROBOTS)
-> * Group participants names: Justin Loveless, Blake Nguyen, and Ugur Uysal
-> * Project Title: Trust and Reliance in Military Automation
+* Group Name: (R)omeo (O)scar (B)eta (O)scar (T)ango (S)ierra (ROBOTS)
+* Group participants names: Justin Loveless, Blake Nguyen, and Ugur Uysal
+* Project Title: Trust and Reliance in Military Automation
 (Abstract here - basically your pitch with some modification - but short overview)
 (TEASER IMAGE HERE - should wow me to read your work)
 
@@ -14,7 +14,7 @@
 * (once you are happy with it - copy it into the proposal directory, and remove the obvious sections that should be removed - Future work, etc)
 
 
-## General Introduction
+## 1. General Introduction
 
 (States your motivation clearly: why is it important / interesting to solve this problem?)
 (Add real-world examples, if any)
@@ -37,6 +37,24 @@ Ugur’s Motivation: Armed forces use technology to gain superiority on the batt
 
 (Proposed Solution. How do we propose to tackle this problem (that has been identified in the previous para-graphs, is interesting to the community, and has yet to be tackled by other researchers)?)
 
+Close air support missions of a manned aircraft against enemy armored air defense can be risky for human pilots: 
+
+##### Click on the image to watch the video **ArmA 3: Risky CAS mission with F181** on YouTube.
+[![F181](https://github.com/UgurUysal86/finalProjectTemplate/blob/master/images/riskyCAS.jpg)](https://www.youtube.com/watch?v=OK3LowJ_aPo)
+
+The use of drones could help to reduce the risk without compromising reliability. The control of drones can be done at different levels of autonomy: 
+- Semi-autonomous (Human-IN-the-loop) 
+- Supervised-autonomous (Human-ON-the-loop) 
+- Fully- autonomous (Human-OUT-of-the-loop) 
+
+In the project [HUMAN-ASSISTED WEAPON SYSTEMS](https://github.com/UgurUysal86/project_template) we compared the **semi-autonomous operation** with the **supervised-autonomous operation** of drones.
+
+An example of a Semi-autonomous UCAV operation in a "Multi-Drone Control" scenario can be seen here: https://www.youtube.com/watch?v=4Squmz5BZv0
+An example of a Supervised-autonomous UCAV operation in a "Multi-Drone Control" scenario can be seen here: https://www.youtube.com/watch?v=YDD9rnlW4kY
+
+In this project we now want to analyze a Supervised-autonomous UCAV operation in a "Multi-Drone Control" scenario.
+
+
 (Contributions. An enumeration of the contributions of the senior design project)
 
 (This project makes the following contributions:)(you must have this!!)
@@ -45,7 +63,7 @@ Ugur’s Motivation: Armed forces use technology to gain superiority on the batt
 - We believe the implementation of stimulated autonomous air fighters in ArmA 3 will provide insight on the real world application of autonomous drones. 
 
 
-## The Model
+## 2. The Model
 
 (Provide structural and behavior diagrams of the system you wish to study.) (Why is your model a good abtraction of the problem you want to study?) (Are you capturing all the relevant aspects of the problem?) (Use the model to tell us what is going on.)
 The model consists of a Drone, Tank, and Human, which all inherit certain shared traits from the class Entity. 
@@ -66,23 +84,84 @@ The drones will provide updated information on a target once observed
 3. Based on the reliability results, do the results have an impact on trust?
 
 
-
-## Expected Results
+## 3. Expected Results
 (What are the answers to the above questions that you expect to find before starting your research?) (This changes from Expected (Proposal) to just Results (final report)) (you should verbally define them) (sketch a few graphs of what you are roughly going for - not the data but histogram of this, line graph of that, screenshot of an agent - use paper and pencil sketches)
 
-## Research Methods
-(Cellular Automata, Agent-Based Model, Discrete Event Continuous Modeling...)(Python or Anylogic) (If you are not sure here: 1. Consult your colleagues, 2. ask the teachers, 3. remember that you can change it afterwards) (Steps in the process)
+## 4. Research Methods
+
+In the research project [HUMAN-ASSISTED WEAPON SYSTEMS](https://github.com/UgurUysal86/project_template) we compared the **semi-autonomous operation** with the **supervised-autonomous operation** of drones.
+Now, we want to compare the results obtained during that project with results of the **fully-autonomous operation** of drones.
+Therefore we are using the same experimental setup: 
+* Quantitative Method Approach as defined by Creswell & Creswell (2017)
+* collecting, analyzing, and interpreting quantitative data through simulation experiments using the virtual simulation software ArmA 3.
+
+### 4.1 Hypothesis
+Unmanned Systems can be operated fully-autonomously (human-out-of-the-loop) with the same reliability as operated supervised-autonomously (human-on-the-loop) in a virtual military scenario.
+
+### 4.2 Setup of the experimental Study Method Plan
+#### 4.2.1 Participants
+Our group will use the scenario "Multi-Drone control" from [HUMAN-ASSISTED WEAPON SYSTEMS](https://github.com/UgurUysal86/project_template) to compare the **semi-autonomous operation** with the **supervised-autonomous operation** of drones to determine the reliability of the autonomous agents.
+
+#### 4.2.2 Independent variables:
+* Level of autonomy  {supervised autonomous, fully autonomous},
+* Amount of targets {6} 
+* Amount of UCAV (Unmanned Combat Aerial Vehicle ) {4}
+* Available Munitions {12 AGM} 
+* Amount of unbound vehicles {8}
+* Complexity of Scenario {middle}
+
+#### 4.2.3 Dependent variables (Responses):
+* Amount of destroyed targets {0..6} 
+* Amount of UCAV at the end of the mission {0..4} 
+* Elapsed Time since command received (sec) {0..inf} 
+* Amount of used Ammunition {0..12} 
+* Only hostile targets engaged {True = 1, False = 0}
+* Operator was able to  supervise all used autonomous systems {True = 1, False = 0}
+* Operator perception of  cognitive workload  {1..10}
+
+### 4.3 Instrumentation and Materials
+Since the full potential of autonomous systems can only be estimated today due to technologies that are not yet fully developed, we want to use a simulation environment in which these technologies are already available. Therefore we use virtual simulation instead of robotics for our experiments. The military tactical shooter video game [ArmA 3](https://arma3.com/) Version 1.9 including ["Apex"](https://arma3.com/apex), ["Jets"](https://arma3.com/dlc/jets), and ["Tanks"](https://arma3.com/dlc/tanks), are used as our framework to create a military scenario for generating data to answer the quantitative research questions.
+
+### 4.4 Experimental Procedures:
+#### 4.4.1 Scenario "Multi-Drone control" with 4 [UCAVs](http://armedassault.wikia.com/wiki/UCAV_Sentinel) and 6 Targets (3 [AA-Tanks](http://armedassault.wikia.com/wiki/ZSU-39_Tigris), 1 [APC](http://armedassault.wikia.com/wiki/BTR-K_Kamysh), 2 [Main Battle Tanks (MBTs)](http://armedassault.wikia.com/wiki/T-140K_Angara)) from [HUMAN-ASSISTED WEAPON SYSTEMS](https://github.com/UgurUysal86/project_template).
+In this scenario the human user assigns multiple-drones a specific area to "seek and destroy" enemy tanks which are then engaged fully-autonomously. The use of the drone-swarm is terminated when the predefined mission time expires. Once the drones are deployed, there is no way to cancel the mission in a Fully-autonomous operation because the human is "out-of-the-loop".
+
+[The ArmA 3 mission file can be downloaded here](https://github.com/UgurUysal86/finalProjectTemplate/tree/master/code/Fully%2520autonomous%253a4xUCAV%2C6xTargets(3AA%2C1APC%2C2Tanks).Altis). Copy and paste the scenario folder to the ArmA 3 user mission folder C:\Users\YOURNAME\Documents\Arma 3\missions to be able to load the scenario.
+
+#### 4.4.2. Conducting the simulation experiment (30 runs) 
+Running the Simulation in ArmA 3. At the end of each Simulation run, the values of the response variables are saved in a excel file.
 
 ##### Click on the image to watch the video **Fully-autonomous UCAV operation in a "Multi-Drone Control" scenario** on YouTube.
 [![fully_autonomous](https://github.com/UgurUysal86/finalProjectTemplate/blob/master/images/fully-autonomous.jpg)](https://www.youtube.com/watch?v=pyYe_pu8vdk&feature=youtu.be)
 
+[The results of the experiment can be downloaded here.](https://github.com/UgurUysal86/finalProjectTemplate/blob/master/data/Experimentation%20Results_4%20UCAV%2C6%20Targets(3AA%2C1APC%2C2Tanks).xlsx)
+
+#### 4.4.3 Analyzing the Results.
+
+* Ho: There is no sufficient evidence for a difference in reliability.
+* Ha: There is a sufficient evidence for a difference in reliability.
+
+After generating the data during the simulation experiment, a statistical hypothesis test using the software "R" was conducted. The data of the supervised-autonomous operation was obtained from [HUMAN-ASSISTED WEAPON SYSTEMS](https://github.com/UgurUysal86/project_template).
+
+* Comparing Amount of destroyed targets: 				 				**no significant difference**
+* Comparing Amount of autonomous Systems at the end of the mission:		**no significant difference**
+* Comparing elapsed Time since command received: 						**significant difference**
+* Comparing Amount of Used Ammunition: 					 				**significant difference**
+* Comparing Only hostile targets engaged: 				 				**no significant difference**
+* Comparing Operator was able to supervise all used autonomous systems: **no significant difference**
+* Comparing Operator perception of cognitive workload: 			 		**significant difference**
+
+[The R-Script to analyse the Results of the Experiment can be downloaded here](https://github.com/UgurUysal86/finalProjectTemplate/blob/master/data/Analysis%20Results_4%20UCAV%2C6%20Targets(3AA%2C1APC%2C2Tanks).R)
+
+Answer:  ...
+
 ## (Other)
 (change the title and amount of headers as needed) (mention datasets you are going to use) (mention base code or examples you)
 
-## Discussion
+## 5. Discussion
 (final only - remove whole section for proposal Readme) (What would you have done differently) (What are the contributions summerize)(what is the big take away)(what did you learn)
 
-## Future Work
+## 6. Future Work
 (final only - remove whole section for proposal Readme) (if you had 6 more months what would be the next steps in this project.) (What are a few questions you have now)
 
 If given six more months to work on our final project, we would like to focus our future efforts toward implementing our work into Unreal engine/Unity. If we were to implement our work into Unreal engine we would be able to further investigate and validate the results we found in ArmA 3. Implementing our work into Unreal engine/Unity would provide us with the means to compare our results to determine if our results are generalizable, significant, or even worth further exploring in future works.
@@ -93,10 +172,11 @@ Furthermore, we would like to try and improve our study design by incorporating 
 ## References
 (Add the bibliographic references you intend to use)  (Code / Projects / blogs / websites / papers...)
 
-1. Madhavan, P., Wiegmann, D. A., & Lacson, F. C. (2006). Automation failures on tasks easily performed by operators undermine trust in automated aids. Human Factors, 48(2), 241-256.
-2. Maltz, M., & Shinar, D. (2003). New alternative methods of analyzing human behavior in cued target acquisition. Human Factors, 45(2), 281-295.
-3. Parasuraman, R., & Wickens, C.D. (2008). Humans: Still vital after all these years of automation. Human Factors, 50(3), 511-520.
-4. St. John, M., & Manes, D. I. (2002). Making unreliable automation useful. Proceedings of the Human Factors and Ergonomics Society Annual Meeting, 46, 332-336.
-5. Wickens, C. D., & Dixon, S. R. (2007). The benefits of imperfect diagnostic automation: A synthesis of the literature. Theoretical Issues in Ergonomics Science, 8(3), 201-212.
-6. Yeh, M., Merlo, J. L., Wickens, C. D., & Brandenburg, D. L. (2003). Head up versus head down: The costs of imprecision, unreliability, and visual clutter on cue effectiveness for display signaling. Human Factors, 45(3), 390-407.
+* [Creswell, J. W., & Creswell, J. D. (2017). Research design: Qualitative, quantitative, and mixed methods approaches. Sage publications.](https://us.sagepub.com/en-us/nam/research-design/book255675)
+* Madhavan, P., Wiegmann, D. A., & Lacson, F. C. (2006). Automation failures on tasks easily performed by operators undermine trust in automated aids. Human Factors, 48(2), 241-256.
+* Maltz, M., & Shinar, D. (2003). New alternative methods of analyzing human behavior in cued target acquisition. Human Factors, 45(2), 281-295.
+* Parasuraman, R., & Wickens, C.D. (2008). Humans: Still vital after all these years of automation. Human Factors, 50(3), 511-520.
+* St. John, M., & Manes, D. I. (2002). Making unreliable automation useful. Proceedings of the Human Factors and Ergonomics Society Annual Meeting, 46, 332-336.
+* Wickens, C. D., & Dixon, S. R. (2007). The benefits of imperfect diagnostic automation: A synthesis of the literature. Theoretical Issues in Ergonomics Science, 8(3), 201-212.
+* Yeh, M., Merlo, J. L., Wickens, C. D., & Brandenburg, D. L. (2003). Head up versus head down: The costs of imprecision, unreliability, and visual clutter on cue effectiveness for display signaling. Human Factors, 45(3), 390-407.
 
