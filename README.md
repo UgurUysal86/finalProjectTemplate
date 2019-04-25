@@ -32,7 +32,7 @@
 The use of drones could help to reduce the risk without compromising reliability. The control of drones can be done at different levels of autonomy: 
 - Semi-autonomous (Human-IN-the-loop) 
 - Supervised-autonomous (Human-ON-the-loop) 
-- Fully- autonomous (Human-OUT-of-the-loop) 
+- Fully-autonomous (Human-OUT-of-the-loop) 
 
 In the project [HUMAN-ASSISTED WEAPON SYSTEMS](https://github.com/UgurUysal86/project_template) we compared the **semi-autonomous operation** with the **supervised-autonomous operation** of drones.
 
