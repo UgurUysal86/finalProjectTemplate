@@ -38,8 +38,7 @@ In the project [HUMAN-ASSISTED WEAPON SYSTEMS](https://github.com/UgurUysal86/pr
 
 * An example of a Semi-autonomous UCAV operation in a "Multi-Drone Control" scenario can be seen here: https://www.youtube.com/watch?v=4Squmz5BZv0
 * An example of a Supervised-autonomous UCAV operation in a "Multi-Drone Control" scenario can be seen here: https://www.youtube.com/watch?v=YDD9rnlW4kY
-
-### In this project we now want to analyze a Fully-autonomous UCAV operation in a "Multi-Drone Control" scenario.
+* **In this project we now want to analyze a Fully-autonomous UCAV operation in a "Multi-Drone Control" scenario.**
 
 **This project makes the following contributions:**
 - We believe our project will contribute to advancing the study of human-robot interaction (HRI).
