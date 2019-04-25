@@ -26,7 +26,7 @@
 **Close air support missions of a manned aircraft against enemy armored air defense can be risky for human pilots:**
 
 ##### Click on the image to watch the video **ArmA 3: Risky CAS mission with F181** on YouTube.
-[![F181](https://github.com/UgurUysal86/finalProjectTemplate/blob/master/images/riskyCAS.jpg)](https://www.youtube.com/watch?v=OK3LowJ_aPo)
+[![F181](https://github.com/UgurUysal86/finalProjectTemplate/blob/master/images/risky_cas.jpg)](https://www.youtube.com/watch?v=OK3LowJ_aPo)
 
 **Proposed Solution:** 
 The use of drones could help to reduce the risk without compromising reliability. The control of drones can be done at different levels of autonomy: 
