@@ -112,7 +112,7 @@ Since the full potential of autonomous systems can only be estimated today due t
 [The ArmA 3 mission file can be downloaded here](https://github.com/UgurUysal86/finalProjectTemplate/tree/master/code/Fully%2520autonomous%253a4xUCAV%2C6xTargets(3AA%2C1APC%2C2Tanks).Altis). Copy and paste the scenario folder to the ArmA 3 user mission folder C:\Users\YOURNAME\Documents\Arma 3\missions to be able to load the scenario.
 
 #### 4.4.2. Conducting the simulation experiment (30 runs) 
-Running the Simulation in ArmA 3: The human user assigns multiple-drones a specific area to "seek and destroy" enemy tanks which are then engaged fully-autonomously. The use of the drone-swarm is terminated when the predefined mission time expires. Once the drones are deployed, there is no way to cancel the mission in a Fully-autonomous operation because the human is "out-of-the-loop".
+Running the simulation in ArmA 3: The human user assigns multiple-drones a specific area to "seek and destroy" enemy tanks which are then engaged fully-autonomously. The use of the drone-swarm is terminated when the predefined mission time expires. Once the drones are deployed, there is no way to cancel the mission in a Fully-autonomous operation because the human is "out-of-the-loop".
 At the end of each Simulation run, the values of the response variables are saved in a excel file. 
 
 
