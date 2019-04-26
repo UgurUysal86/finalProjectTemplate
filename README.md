@@ -66,6 +66,7 @@ The drones will provide updated information on a target once observed
 1. What is the relationship between humans and robots?
 2. Which condition (i.e., human-in-the-loop, human-on-the-loop, human-out-of-the-loop generates higher reliability? 
 3. Based on the reliability results, do the results have an impact on trust?
+4. Is there a trade-off between workload and levels of automation and if there is, in detail are the trade-offs? 
 
 
 ## 3. Expected Results
