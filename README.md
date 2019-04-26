@@ -164,4 +164,7 @@ Furthermore, we would like to try and improve our study design by incorporating 
 * St. John, M., & Manes, D. I. (2002). Making unreliable automation useful. Proceedings of the Human Factors and Ergonomics Society Annual Meeting, 46, 332-336.
 * Wickens, C. D., & Dixon, S. R. (2007). The benefits of imperfect diagnostic automation: A synthesis of the literature. Theoretical Issues in Ergonomics Science, 8(3), 201-212.
 * Yeh, M., Merlo, J. L., Wickens, C. D., & Brandenburg, D. L. (2003). Head up versus head down: The costs of imprecision, unreliability, and visual clutter on cue effectiveness for display signaling. Human Factors, 45(3), 390-407.
-
+* [Youtube (2019, Apr 22). ArmA 3: Risky CAS mission with F181](https://www.youtube.com/watch?v=OK3LowJ_aPo)
+* [Youtube (2019, Apr 22). ArmA 3: Semi-autonomous UCAV operation in a "Multi-Drone Control" scenario.](https://www.youtube.com/watch?v=Rc2k6G8LuqY)
+* [Youtube (2019, Apr 22). ArmA 3: Supervised-autonomous UCAV operation in a "Multi-Drone Control" scenario](https://www.youtube.com/watch?v=YDD9rnlW4kY)
+* [Youtube (2019, Apr 22). ArmA 3: Fully-autonomous UCAV operation in a "Multi-Drone Control" scenario](https://www.youtube.com/watch?v=pyYe_pu8vdk&feature=youtu.be)
