@@ -59,10 +59,10 @@ The model consists of a Drone, Tank, and Human, which all inherit certain shared
 The Drone gets its mission data from the human, who holds the information such as area of opeation or rules of engagement. The human sends the data to the Drone, which then locates the target, analyzes the activity, and either attacks or reports based on its observation fully-autonomously.
 ![Activity Diagram](images/ActivityDiagram.png)
 
-* **Requirements**
+**Requirements**
 
-The drones will only attack enemy military vehicles
-The drones will provide updated information on a targets once observed
+* The drones will only attack enemy military vehicles
+* The drones will provide updated information on a targets once observed
 
 ## Fundamental Questions
 (At the end of the project you want to find the answer to these questions) (Formulate a few, clear questions. Articulate them in sub-questions, from the more general to the more specific.)
