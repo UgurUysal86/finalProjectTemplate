@@ -8,7 +8,7 @@
 
 In an effort to mitigate the risks of human pilot lives, we are interested in further investigating human-out-of-loop (fully autonomous) in comparison to previous results of human-on-the-loop (supervised autonomous) and human-in-the-loop (semi-autonomous) to determine if there are significant differences in trust and reliability based on the level of automation provided.   
 
-[TEASER IMAGE](https://github.com/UgurUysal86/finalProjectTemplate/blob/master/images/cat_drone.jpg)
+![TEASER IMAGE](https://github.com/UgurUysal86/finalProjectTemplate/blob/master/images/cat_drone.jpg)
 
 * [Google Doc](https://docs.google.com/document/d/1mcqMaQYsubLfIDFFgeauV-vMFGffujcG4K2Izi4j_rk/edit)
 
