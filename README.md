@@ -65,7 +65,6 @@ The Drone gets its mission data from the human, who holds the information such a
 * The drones will provide updated information on a targets once observed
 
 ## Fundamental Questions
-(At the end of the project you want to find the answer to these questions) (Formulate a few, clear questions. Articulate them in sub-questions, from the more general to the more specific.)
 
 1. What is the relationship between humans and robots?
 2. Which condition (i.e., human-in-the-loop, human-on-the-loop, human-out-of-the-loop generates higher reliability? 
@@ -159,7 +158,6 @@ After generating the data during the simulation experiment, a statistical hypoth
 * The expectation that with higher automation we will receive lower **perceived workload** of the human operator was proven true in our specific scenario that we simulated. With lower perceived workload missions could be conducted with less personnel. This could help to lower operating costs of unmanned systems operation. However, for these autonomous systems to work reliably, development must first be carried out. The costs of this development may exceed the benefits, but in the long run, it might be worth it.
 
 ## 6. Future Work
-(final only - remove whole section for proposal Readme) (if you had 6 more months what would be the next steps in this project.) (What are a few questions you have now)
 
 If given six more months to work on our final project, we would like to focus our future efforts toward implementing our work into Unreal engine/Unity. If we were to implement our work into Unreal engine we would be able to further investigate and validate the results we found in ArmA 3. Implementing our work into Unreal engine/Unity would provide us with the means to compare our results to determine if our results are generalizable, significant, or even worth further exploring in future works.
 
