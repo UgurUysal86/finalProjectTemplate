@@ -76,6 +76,10 @@ The Drone gets its mission data from the human, who holds the information such a
 ## 3. Expected Results
 (What are the answers to the above questions that you expect to find before starting your research?) (This changes from Expected (Proposal) to just Results (final report)) (you should verbally define them) (sketch a few graphs of what you are roughly going for - not the data but histogram of this, line graph of that, screenshot of an agent - use paper and pencil sketches)
 
+We expect that higher levels of automation results in lower levels of percieved workload of the human operator. 
+We expect that higher levels of automation results in lower levels of reliabilty of the unmanned aircrafts. 
+
+
 ## 4. Research Methods
 
 In the research project [HUMAN-ASSISTED WEAPON SYSTEMS](https://github.com/UgurUysal86/project_template) we compared the **semi-autonomous operation** with the **supervised-autonomous operation** of drones.
