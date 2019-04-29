@@ -10,7 +10,6 @@ In an effort to mitigate the risks of human pilot lives, we are interested in fu
 
 ![TEASER IMAGE](https://github.com/UgurUysal86/finalProjectTemplate/blob/master/images/cat_drone.jpg)
 
-* [Google Doc](https://docs.google.com/document/d/1mcqMaQYsubLfIDFFgeauV-vMFGffujcG4K2Izi4j_rk/edit)
 
 ## 1. General Introduction
 
@@ -159,6 +158,7 @@ Furthermore, we would like to try and improve our study design by incorporating 
 (Add the bibliographic references you intend to use)  (Code / Projects / blogs / websites / papers...)
 
 * [Creswell, J. W., & Creswell, J. D. (2017). Research design: Qualitative, quantitative, and mixed methods approaches. Sage publications.](https://us.sagepub.com/en-us/nam/research-design/book255675)
+* https://www.wetalkuav.com/wp-content/uploads/2017/07/top-10-stupid-things-people-do-with-their-drones.jpg
 * Madhavan, P., Wiegmann, D. A., & Lacson, F. C. (2006). Automation failures on tasks easily performed by operators undermine trust in automated aids. Human Factors, 48(2), 241-256.
 * Maltz, M., & Shinar, D. (2003). New alternative methods of analyzing human behavior in cued target acquisition. Human Factors, 45(2), 281-295.
 * Parasuraman, R., & Wickens, C.D. (2008). Humans: Still vital after all these years of automation. Human Factors, 50(3), 511-520.
