@@ -77,10 +77,10 @@ The Drone gets its mission data from the human, who holds the information such a
 (What are the answers to the above questions that you expect to find before starting your research?) (This changes from Expected (Proposal) to just Results (final report)) (you should verbally define them) (sketch a few graphs of what you are roughly going for - not the data but histogram of this, line graph of that, screenshot of an agent - use paper and pencil sketches)
 
 ![percieved](https://github.com/UgurUysal86/finalProjectTemplate/blob/master/images/percieved.jpg)
-We expect that higher levels of automation results in lower levels of percieved workload of the human operator. 
+* We expect that higher levels of automation results in lower levels of percieved workload of the human operator. 
 
 ![reliability](https://github.com/UgurUysal86/finalProjectTemplate/blob/master/images/reliability.jpg)
-We expect that higher levels of automation results in lower levels of reliabilty of the unmanned aircrafts. 
+* We expect that higher levels of automation results in lower levels of reliabilty of the unmanned aircrafts. 
 
 
 ## 4. Research Methods
