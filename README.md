@@ -3,7 +3,8 @@
 * Group Name: (R)omeo (O)scar (B)eta (O)scar (T)ango (S)ierra (ROBOTS)
 * Group participants names: Justin Loveless, Blake Nguyen, and Ugur Uysal
 * Project Title: Trust and Reliance in Military Automation
-(Abstract here - basically your pitch with some modification - but short overview)
+
+* **Abstract**
 In an effort to mitigate the risks of human pilot lives, we are interested in further investigating human-out-of-loop (fully autonomous) in comparison to previous results of human-on-the-loop (supervised autonomous) and human-in-the-loop (semi-autonomous) to determine if there are significant differences in trust and reliability based on the level of automation provided.   
 
 (TEASER IMAGE HERE - should wow me to read your work)
@@ -14,9 +15,7 @@ In an effort to mitigate the risks of human pilot lives, we are interested in fu
 
 **Justin’s Motivation:** I am motivated to observe the cost effectiveness and efficiency of drones when deployed in air combat scenarios. When the cost of some of the latest Department of Defense (DoD) combat aircraft is soaring upwards of 100 Million dollars, finding alternate means of air defense is an area of focus to be considered moving forward. I am interested in analyzing performance of one F-35 stealth fighter in a combat situation, vs 10 combat drones in the same scenario. I would like to answer the questions, “Which approach is more economical?”, and  “Which approach will be more effective in reaching the objective?”. 
 
-
 **Blake’s Motivation:** My research interests and experience are in human-robot interaction (HRI), specifically, situation awareness (SA), trust and reliability, and usability related to automation technology. Most of my work contributes to the Robotics Collaborative Technology Alliance (RCTA) program, which the Army Research LAB (ARL) at UCF/IST are also involved with. As a result, my research experience are focused on automation technology, specifically, what is the relationship between humans and robots and how can we improve the communication interactions seen in human-robot teams. Previous research regarding trust and reliance in human-robot teams suggest that when reliability falls below 70% reliability, automation is considered not useful, and will harm overall task performance. However, if the human teammate cannot perform a task unaided, or if the environment/situation is too risky for a human to begin with, there may still be an advantage or willingness to trust or rely on automation even if automation falls below the threshold (Maltz & Shinar, 2003). In the military domain, there is an increasing number of humans who are or will be performing tasks with the help of automation (Parasuraman & Wickens, 2008). In real world applications, information acquisition and analysis are rarely perfect, whether performed by humans or automation (St. John & Manes, 2002). Even when automation is imperfect, in most scenarios automation improves system performance (Yeh, Merlo, Wickens, & Brandenburg, 2003). Previous research states that when automation reliability levels fall below 70% (e.g., Madhavan, Wiegamann, & Lacson, 2006), performance tends to decrease levels lower than those of manual task performance alone (i.e., without assistance from automation). Wickens and Dixon (2007) identified the 70% reliability threshold, which is based on a review of studies in which the automation performed tasks which human could also perform unaided. In these types of scenarios, if reliability falls too low, automation may be perceived as useless, or even as being detrimental to overall task performance. As a result, making the human operators less likely to rely on automated systems, and instead, tasks will be executed manually without assistance from automation. 
-
 
 **Ugur’s Motivation:** Armed forces use technology to gain superiority on the battlefield. Recent breakthroughs in the field of Artificial Intelligence and Unmanned Systems provide new uses for military operations. In my the research project HUMAN-ASSISTED WEAPON SYSTEMS I compared the semi-autonomous operation with the supervised-autonomous operation of drones. I think that on the battlefield of the future, those who use fully autonomous systems will be successful. In this project, I would like to improve the effectiveness of drones by implementing AI techniques such as Reinforcement Learning to operate those fully autonomous.
 
@@ -51,16 +50,15 @@ In the project [HUMAN-ASSISTED WEAPON SYSTEMS](https://github.com/UgurUysal86/pr
 
 ## 2. The Model
 
-(Provide structural and behavior diagrams of the system you wish to study.) (Why is your model a good abtraction of the problem you want to study?) (Are you capturing all the relevant aspects of the problem?) (Use the model to tell us what is going on.)
 The model consists of a Drone, Tank, and Human, which all inherit certain shared traits from the class Entity. 
 ![Class Diagram](images/ClassDiagram.png)
 
-The Drone gets its target/mission data from the human, who holds the information such as location of target, number of targets in area, and other threats in the area. The human sends the data to the Drone, which then locates the target, analyzes the activity, and either attacks or reports its observation.
+The Drone gets its mission data from the human, who holds the information such as area of opeation or rules of engagement. The human sends the data to the Drone, which then locates the target, analyzes the activity, and either attacks or reports based on its observation fully-autonomously.
 ![Activity Diagram](images/ActivityDiagram.png)
 
-(explicitly list your requirements of what the model will have and simulate for the proposal)
-The drones will attack enemy tanks as directed
-The drones will provide updated information on a target once observed
+* **Requirements**
+The drones will only attack enemy military vehicles
+The drones will provide updated information on a targets once observed
 
 ## Fundamental Questions
 (At the end of the project you want to find the answer to these questions) (Formulate a few, clear questions. Articulate them in sub-questions, from the more general to the more specific.)
@@ -140,9 +138,6 @@ After generating the data during the simulation experiment, a statistical hypoth
 * Comparing Operator perception of cognitive workload: 			 		**significant difference**
 
 [The R-Script to analyse the Results of the Experiment can be downloaded here](https://github.com/UgurUysal86/finalProjectTemplate/blob/master/data/Analysis%20Results_4%20UCAV%2C6%20Targets(3AA%2C1APC%2C2Tanks).R)
-
-## (Other)
-(change the title and amount of headers as needed) (mention datasets you are going to use) (mention base code or examples you)
 
 ## 5. Discussion
 (final only - remove whole section for proposal Readme) (What would you have done differently) (What are the contributions summerize)(what is the big take away)(what did you learn)
