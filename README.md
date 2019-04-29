@@ -153,6 +153,10 @@ After generating the data during the simulation experiment, a statistical hypoth
 ## 5. Discussion
 (final only - remove whole section for proposal Readme) (What would you have done differently) (What are the contributions summerize)(what is the big take away)(what did you learn)
 
+* The expectation that with higher automation we will receive lower **reliability** was proven untrue in our specific scenario that we simulated. Human users do not operate unmanned system 100% reliably, and there might be a time in future where fully-autonomous systems are more reliable than human operators.
+
+* The expectation that with higher automation we will receive lower **perceived workload** of the human operator was proven true in our specific scenario that we simulated. With lower perceived workload missions could be conducted with less personnel. This could help to lower operating costs of unmanned systems operation. However, for these autonomous systems to work reliably, development must first be carried out. The costs of this development may exceed the benefits, but in the long run, it might be worth it.
+
 ## 6. Future Work
 (final only - remove whole section for proposal Readme) (if you had 6 more months what would be the next steps in this project.) (What are a few questions you have now)
 
