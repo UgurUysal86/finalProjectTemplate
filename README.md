@@ -5,9 +5,10 @@
 * Project Title: Trust and Reliance in Military Automation
 
 * **Abstract**
+
 In an effort to mitigate the risks of human pilot lives, we are interested in further investigating human-out-of-loop (fully autonomous) in comparison to previous results of human-on-the-loop (supervised autonomous) and human-in-the-loop (semi-autonomous) to determine if there are significant differences in trust and reliability based on the level of automation provided.   
 
-(TEASER IMAGE HERE - should wow me to read your work)
+[TEASER IMAGE](images/cat_drone.jpg)
 
 * [Google Doc](https://docs.google.com/document/d/1mcqMaQYsubLfIDFFgeauV-vMFGffujcG4K2Izi4j_rk/edit)
 
@@ -24,12 +25,14 @@ In an effort to mitigate the risks of human pilot lives, we are interested in fu
 
 
 **Problem Statement:**
+
 **Close air support missions of a manned aircraft against enemy armored air defense can be risky for human pilots:**
 
 ##### Click on the image to watch the video **ArmA 3: Risky CAS mission with F181** on YouTube.
 [![F181](https://github.com/UgurUysal86/finalProjectTemplate/blob/master/images/risky_cas.jpg)](https://www.youtube.com/watch?v=OK3LowJ_aPo)
 
 **Proposed Solution:** 
+
 The use of drones could help to reduce the risk without compromising reliability. The control of drones can be done at different levels of autonomy: 
 - Semi-autonomous (Human-IN-the-loop) 
 - Supervised-autonomous (Human-ON-the-loop) 
@@ -43,6 +46,7 @@ In the project [HUMAN-ASSISTED WEAPON SYSTEMS](https://github.com/UgurUysal86/pr
 **In this project we now want to analyze a Fully-autonomous UCAV operation in a "Multi-Drone Control" scenario.**
 
 **This project makes the following contributions:**
+
 - We believe our project will contribute to advancing the study of human-robot interaction (HRI).
 - We believe our project will contribute to the area of research on trust and reliability in automation technology.
 - We believe the implementation of stimulated autonomous air fighters in ArmA 3 will provide insight on the real world application of autonomous drones. 
@@ -57,6 +61,7 @@ The Drone gets its mission data from the human, who holds the information such a
 ![Activity Diagram](images/ActivityDiagram.png)
 
 * **Requirements**
+
 The drones will only attack enemy military vehicles
 The drones will provide updated information on a targets once observed
 
