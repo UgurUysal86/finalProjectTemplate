@@ -4,7 +4,7 @@
 * Group participants names: Justin Loveless, Blake Nguyen, and Ugur Uysal
 * Project Title: Trust and Reliance in Military Automation
 
-* **Abstract**
+**Abstract**
 
 In an effort to mitigate the risks of human pilot lives, we are interested in further investigating human-out-of-loop (fully autonomous) in comparison to previous results of human-on-the-loop (supervised autonomous) and human-in-the-loop (semi-autonomous) to determine if there are significant differences in trust and reliability based on the level of automation provided.   
 
