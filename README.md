@@ -66,10 +66,9 @@ The Drone gets its mission data from the human, who holds the information such a
 
 ## Fundamental Questions
 
-1. What is the relationship between humans and robots?
-2. Which condition (i.e., human-in-the-loop, human-on-the-loop, human-out-of-the-loop generates higher reliability? 
-3. Based on the reliability results, do the results have an impact on trust?
-4. Is there a trade-off between workload and levels of automation and if yes, what are the considered trade-offs? 
+1. Which condition (i.e., human-in-the-loop, human-on-the-loop, human-out-of-the-loop generates higher reliability? 
+2. Based on the reliability results, do the results have an impact on trust?
+3. Is there a trade-off between workload and levels of automation and if yes, what are the considered trade-offs? 
 
 
 ## 3. Expected Results
@@ -153,9 +152,24 @@ After generating the data during the simulation experiment, a statistical hypoth
 ## 5. Discussion
 (final only - remove whole section for proposal Readme) (What would you have done differently) (What are the contributions summerize)(what is the big take away)(what did you learn)
 
-* The expectation that with higher automation we will receive lower **reliability** was proven untrue in our specific scenario that we simulated. Human users do not operate unmanned system 100% reliably, and there might be a time in future where fully-autonomous systems are more reliable than human operators.
+Fundamental Questions Answered:
 
-* The expectation that with higher automation we will receive lower **perceived workload** of the human operator was proven true in our specific scenario that we simulated. With lower perceived workload missions could be conducted with less personnel. This could help to lower operating costs of unmanned systems operation. However, for these autonomous systems to work reliably, development must first be carried out. The costs of this development may exceed the benefits, but in the long run, it might be worth it.
+1. Which condition (i.e., human-in-the-loop, human-on-the-loop, human-out-of-the-loop generates higher reliability? 
+* There was no significant difference between the different types of operations (semi-autonomous, supervised-autonomous, and fully autonomous). The expectation that with higher automation we will receive lower **reliability** was proven untrue in our specific scenario that we simulated. Human users do not operate unmanned system 100% reliably, and there might be a time in future where fully-autonomous systems are more reliable than human operators.
+
+
+2. Based on the reliability results, do the results have an impact on trust?
+We defined the reliability rate as the total number of destroyed tanks (6 total):
+
+* For Supervised-autonomous, the calculated reliability rate was 70%; 4.2 (destroyed tanks) /6 (total of tank targets) = 70% reliability.
+* For Semi-autonomous, the calculated reliability rate was 74.4%; 4.46 (destroyed tanks)/6 (total of tank targets)= 74.4% reliability. 
+* For Fully autonomous, the calculated reliability rate was 59.4%; 3.56 (destroyed tanks)/6 (total of tank targets) = 59.4% reliability. 
+* Based on the reliability threshold concept, supervised-autonomous and semi-autonomous are considered more reliability than fully autonomous as they are above the 70% threshold. Based on our simulation results for fully autonomous and the reliability threshold, it is deemed as unreliabile as it fell below the threshold at 59.4%. 
+
+3. Is there a trade-off between workload and levels of automation and if yes, what are the considered trade-offs? 
+* Based on our results, we found a trade-off between workload and level of automation. The expectation that with higher automation we will receive lower **perceived workload** of the human operator was proven true in our specific scenario that we simulated. With lower perceived workload missions could be conducted with less personnel. This could help to lower operating costs of unmanned systems operation. However, for these autonomous systems to work reliably, development must first be carried out. The costs of this development may exceed the benefits, but in the long run, it might be worth it.
+
+
 
 ## 6. Future Work
 
