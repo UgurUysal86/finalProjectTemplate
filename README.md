@@ -147,13 +147,11 @@ After generating the data during the simulation experiment, a statistical hypoth
 [The R-Script to analyse the Results of the Experiment can be downloaded here](https://github.com/UgurUysal86/finalProjectTemplate/blob/master/data/Analysis%20Results_4%20UCAV%2C6%20Targets(3AA%2C1APC%2C2Tanks).R)
 
 ## 5. Discussion
-(final only - remove whole section for proposal Readme) (What would you have done differently) (What are the contributions summerize)(what is the big take away)(what did you learn)
 
 Fundamental Questions Answered:
 
 1. Which condition (i.e., human-in-the-loop, human-on-the-loop, human-out-of-the-loop generates higher reliability? 
 * There was no significant difference between the different types of operations (semi-autonomous, supervised-autonomous, and fully autonomous). The expectation that with higher automation we will receive lower **reliability** was proven untrue in our specific scenario that we simulated. Human users do not operate unmanned system 100% reliably, and there might be a time in future where fully-autonomous systems are more reliable than human operators.
-
 
 2. Based on the reliability results, do the results have an impact on trust?
 We defined the reliability rate as the total number of destroyed tanks (6 total):
@@ -166,6 +164,16 @@ We defined the reliability rate as the total number of destroyed tanks (6 total)
 3. Is there a trade-off between workload and levels of automation and if yes, what are the considered trade-offs? 
 * Based on our results, we found a trade-off between workload and level of automation. The expectation that with higher automation we will receive lower **perceived workload** of the human operator was proven true in our specific scenario that we simulated. With lower perceived workload missions could be conducted with less personnel. This could help to lower operating costs of unmanned systems operation. However, for these autonomous systems to work reliably, development must first be carried out. The costs of this development may exceed the benefits, but in the long run, it might be worth it.
 
+What would you have done differently: 
+* After completing this project, our team believes that we could determine more useful information on the level of automation if we utlized Unreal engine/unity to simulate the various scenarios used in ArmA3. We would also like to have done things differently in regards to level of expertise. In corporating the level of expertise may provide more insight on the perception of reliability based on the background expertise of the human operators. 
+
+What are the contributions:
+* Based on our results, we believe our project contributes to advancing the study of human-robot interaction (HRI), the area of research regarding trust and reliability in automation technology and insight on real world applications of autonomous aircraft drones.
+
+What did we learn:
+* We learned that the reliabilty rate may require more consideration than what we calculated and defined as reliability rate in our project. Specifically, we would like to further research the appropriate measures needed to adequately measure reliability rate. 
+* We also learned that simulation was proven useful to answer our research questions. 
+* We learned that there is an interaction between percieved workload and levels of automation. For example, the higher the level of automation, the less percieved workload for human operators. 
 
 
 ## 6. Future Work
