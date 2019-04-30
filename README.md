@@ -134,9 +134,6 @@ At the end of each Simulation run, the values of the response variables are save
 
 #### 4.4.3 Analyzing the Results.
 
-* Ho: There is no sufficient evidence for a difference in reliability.
-* Ha: There is a sufficient evidence for a difference in reliability.
-
 After generating the data during the simulation experiment, a statistical hypothesis test using the software "R" was conducted. The data of the supervised-autonomous operation was obtained from [HUMAN-ASSISTED WEAPON SYSTEMS](https://github.com/UgurUysal86/project_template).
 
 * Comparing Amount of destroyed targets: 				 				**no significant difference**
